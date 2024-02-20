@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" data-bs-theme="dar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCE-Mini Proj.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+
+  .row {
+    /* background: transparent url(syllabus.jpg) no-repeat; */
+    width: 800px;
+    height: 270px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 2%;
+    /* border: 3px solid bisque; */
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+  top: 0;
+  left: 0;
+
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+
+  }
+  
+  .row:hover{
+  transform: rotateY(180deg);
+}
+
+  .xyz{
+ 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  /* backface-visibility: hidden; */
+  overflow: hidden;
+  transform: rotateY(180deg);
+
+  transition: all 0.8s ease;
+
+  transform: rotateY(360deg);
+  
+  }
+
+  body{
+
+background: transparent url(syllabusbg.jpg) ;
+background-size: cover;
+
+}
+
+
+.syl:hover{
+  color: blue;
+  
+}
+
+ul{
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+#content2
+  {
+     /* text-align: left;
+    width: 613px; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 3%;
+  
+  }
+  
+
+ 
+
+#c:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  #a:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+
+  #b:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  
+  .abc{
+  
+  position: relative;
+  animation: mymove 4s;
+  animation-fill-mode: forwards;
+}
+
+.syl{
+  position: relative;
+  animation: move 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {top: -800px;}
+  to {top: 0px; }
+}
+
+
+@keyframes move {
+  from {bottom: -800px;}
+  to {bottom: 0px; }
+}
+
+  </style>
+
+</head>
+
+<body style="background-color:bisque">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-radius: 10px; ">
+            <div class="container-fluid" style="background-color:beige;">
+              <a class="navbar-brand" href="./index.html"><img src="./p1.jpeg" height="60px" width="60px" style="border-radius: 50%;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./index.html"><button type="button" class="btn btn-secondary rounded-pill px-3">About </button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="./faculties.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Faculties</button></a>
+                  </li>
+
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./syllabus.html"><button type="button" class="btn btn-secondary rounded-pill px-3"  style="background-color: #131010;"><b>SYLLABUS</b></button></a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true" href="./placement.html">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3">Placements</button></a>
+
+                  </li>
+
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle px-4 " href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3">More</button>
+                      
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="./officebearers.html" id="a">Office bearers</a></li>
+                      <li><a class="dropdown-item" href="./activities.html" id="b">Activities</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./developers.html" id="c">Developers</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Click</button>
+                </form> -->
+              </div>
+            </div>
+          </nav> 
+
+
+          <div class="row">
+            <img class="xyz" src="./syllabus.jpg" alt="">
+          </div>
+
+          <div id="content" style="background-color: beige; margin-top: 3%;" >
+            <h2 style="margin-top: 0.5%; margin-bottom: 2%;" class="abc">Syllabus : Autonomous , Affiliated to VTU Scheme</h2>        
+            <ul>
+              <li class="syl"><a href="thirdyear.pdf" class="syl" >Third year(2025 Passout Batch) &#128072;</a></li><br>
+              <li class="syl"><a href="forthyear.pdf" class="syl">Fourth year(2024 Passout Batch) &#128072;</a></li>
+            </ul>    
+            
+          </div>
+
+
+          <div id="content2" style="background-color: beige; margin-top: 3%; margin-bottom: 3.4%;" >
+            <h2 style="margin-top: 0.5%; margin-bottom: 2%;" class="abc">Syllabus : Nitte Deemed University (NDU) Scheme</h2>        
+            <ul>
+              <li class="syl"><a href="2022-26.pdf" class="syl" >2022 - 26 Batch &#128072</a></li><br>
+              <li class="syl"><a href="2023-27.pdf" class="syl">2023 - 27 Batch &#128072;</a></li>
+            </ul>    
+            
+          </div>
+
+
+          <div id="content" style="background-color: beige; margin-top: 3%;" >
+            <h2 style="margin-top: 0.5%; margin-bottom: 2%;" class="abc">Detailed-Depth Study Materials</h2>        
+            <ul>
+              <li class="syl"><a href="https://nitte.vercel.app/" class="syl" >Comprehensive Study Guides &#128072;</a></li><br>
+            </ul>    
+            
+          </div>
+
+
+
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:beige">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: black;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </footer>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE HTML >
+<html lang="en">                                          
+  
+<!-- data-bs-theme="dark"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCE-Mini Proj.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <style>
+    .row {
+    width: 860px;
+    height: 350px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 2%;
+    overflow: hidden;
+  }
+
+
+  .row img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+  } 
+
+
+
+  .card{
+  margin-left: 7pc;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+ 
+  
+
+  background-color: beige;
+}
+ 
+
+
+
+body{
+
+background: transparent url(facultyback.jpg) ;
+background-size: cover;
+
+}
+
+
+.faculty{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+
+}
+
+
+  </style>
+</head>
+
+<body style="background-color:beige">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-radius: 10px; ">
+      <div class="container-fluid" style="background-color: beige;">
+        <a class="navbar-brand" href="./index.html"><img src="./p1.jpeg" height="60px" width="60px" style="border-radius: 50%;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              
+              <a class="nav-link active px-4 " aria-current="page" href="./index.html"><button type="button" class="btn btn-secondary rounded-pill px-3">About </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="./faculties.html"><button type="button" class="btn btn-secondary rounded-pill px-3" style="background-color: #131010;"><b>FACULTIES</b></button></a>
+            </li>
+
+            <li class="nav-item">
+              
+              <a class="nav-link active px-4 " aria-current="page" href="./syllabus.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Syllabus </button></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " aria-disabled="true" href="./placement.html">
+                <button type="button" class="btn btn-secondary rounded-pill px-3">Placements</button></a>
+
+            </li>
+
+
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle px-4 " href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
+                <button type="button" class="btn btn-secondary rounded-pill px-3">More</button>
+                
+              </a>
+              <ul class="dropdown-menu " id="drop">
+                <li><a class="dropdown-item" href="#" id="a">Office bearers</a></li>
+                <li><a class="dropdown-item" href="#" id="b">Activities</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li ><a class="dropdown-item" href="./developers.html" id="c">Developers</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Click</button>
+          </form> -->
+        </div>
+      </div>
+    </nav> 
+
+
+          <div class="row">
+            <img src="./fac.jpeg" > 
+            <!-- style=" border: 3px solid #000000;" -->
+          </div>
+
+
+
+          <br>
+          <div class="faculty">
+            <div class="card" style="width: 18rem;">
+            <img src="./faculty photos/hod.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+            <div class="card-body">
+              <h5 class="card-title">Dr. RADHAKRISHNA</h5>
+              <p class="card-text">Associate Professor & Head</p>
+              <a href="#" class="x"  data-bs-toggle="collapse" data-bs-target="#hod"><button class="button-33" role="button" fdprocessedid="djhuda">....</button></a>
+              <div class="x" id="hod"><b>Educational Qualifications : </b><br> 
+              <ol>
+                <li>BE - NMAM Institute Of Technology - 2003 .</li>
+                <li> M. Tech. - NMAM Institute of Technology Nitte 2007</li>
+                <li>Ph. D</li>
+              </ol> </div>
+            </div>
+            
+            </div>
+            <div class="card" style="width: 18rem;">
+            <img src="./faculty photos/ashish.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+            <div class="card-body">
+              <h5 class="card-title">Dr. ASHISH SINGH</h5>
+              <p class="card-text">Associate Professor & Head</p>
+              <a href="#" class="xlink"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+            </div>
+            </div> 
+
+
+            <div class="card" style="width: 18rem;">
+              <img src="./faculty photos/chitra.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+              <div class="card-body">
+                <h5 class="card-title">Dr. CHITHRA K</h5>
+                <p class="card-text">Assistant Professor Gd-III</p>
+                <a href="#" class="xlink"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+              </div>
+              </div> 
+
+
+              <div class="card" style="width: 18rem;">
+                <img src="./faculty photos/sugar.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title">Mr. SHRINIVASA</h5>
+                  <p class="card-text">Assistant Professor Gd-III</p>
+                  <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                </div>
+                </div> 
+
+
+
+                <div class="card" style="width: 18rem;">
+                  <img src="./faculty photos/manj.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr. MANJUNATHA A S</h5>
+                    <p class="card-text">Assistant Professor Gd.II</p>
+                    <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                  </div>
+                  </div> 
+
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="./faculty photos/kp.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Mr. KRISHNA PRASAD D S</h5>
+                      <p class="card-text">Assistant Professor Gd-II</p>
+                      <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                    </div>
+                    </div> 
+
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="./faculty photos/sandy.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. SANDEEP KUMAR S</h5>
+                        <p class="card-text">Assistant Professor Grade - II</p>
+                        <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                      </div>
+                      </div>
+
+
+
+                      <div class="card" style="width: 18rem;">
+                        <img src="./faculty photos/chidu.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Mr. CHIDANANDA T
+                          </h5>
+                          <p class="card-text">Assistant Professor Gd.I</p>
+                          <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                        </div>
+                        </div>
+
+
+
+
+                        <div class="card" style="width: 18rem;">
+                          <img src="./faculty photos/mamu.jpeg" class="card-img-top" alt="..." style="border-radius: 20px;">
+                          <div class="card-body">
+                            <h5 class="card-title">Ms. MAMATHA K M</h5>
+                            <p class="card-text">Assistant Professor Gd-I</p>
+                            <a href="#" class="x"><button class="button-33" role="button" fdprocessedid="djhuda">More...</button></a>
+                          </div>
+
+
+                          </div>
+
+                          
+
+                          
+
+          </div>  
+
+
+
+
+
+
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: beige;">
+            <div class="col-md-4 d-flex align-items-center"  style="background-color: beige;">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">© Amogh, Kiran, Adarsh Mini Project, Ltd</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </footer>
+    </div>
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

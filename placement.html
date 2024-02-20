@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" data-bs-theme="dar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCE-Mini Proj.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+
+  .row {
+    /* background: transparent url(NMAMIT.png) no-repeat; */
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    /* border: 4px solid #131010; */
+    margin-top: 1.5%;
+   border-radius: 10px;
+   
+  }
+  
+
+  .row img{
+    
+    border-radius: 10px;
+    
+  } 
+
+
+  .swiper {
+      width: 100%;
+      height: 100%;
+      position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-in;
+
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom:5%;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+
+    .xyz{
+      height: 40%;
+      width: 50%;
+      margin-left: 23%;
+      margin-bottom:5%;
+    }
+
+  
+    body{
+
+background: transparent url(placementbg.jpeg) ;
+background-size: cover;
+
+}
+
+
+
+
+#c:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  #a:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+
+  #b:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+.m{
+  position: relative;
+  animation: move 5s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-in;
+}
+
+
+@keyframes move {
+  from {top: -1000px;}
+  to {top: 0px; }
+}
+
+
+@keyframes mymove {
+  from {left: -800px;}
+  to {left: 0px; }
+}
+
+
+  </style>
+  
+</head>
+
+<body style="background-color:bisque">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-radius: 10px;">
+            <div class="container-fluid" style="background-color: beige;">
+              <a class="navbar-brand" href="./index.html"><img src="./p1.jpeg" height="60px" width="60px" style="border-radius: 50%;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./index.html"><button type="button" class="btn btn-secondary rounded-pill px-3">About </button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="./faculties.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Faculties</button></a>
+                  </li>
+
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./syllabus.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Syllabus </button></a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true" href="./placement.html">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3" style="background-color: #131010;"><b>PLACEMENTS</b></button></a>
+
+                  </li>
+
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle px-4 " href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3">More</button>
+                      
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="./officebearers.html" id="a">Office bearers</a></li>
+                      <li><a class="dropdown-item" href="./activities.html" id="b">Activities</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./developers.html" id="c">Developers</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Click</button>
+                </form> -->
+              </div>
+            </div>
+          </nav> 
+
+            <div style="background-color: beige; margin-top: 4%; padding: 0.005%; border-radius: 15px;">
+          <h2 style="font-style: italic; margin-top: 1%; margin-left: 2%; ">Recruitment Partners : </h2>
+          <div class="row">
+            <marquee scrollamount="10" direction="right" style="font-size: xx-large; border-radius: 20px;  margin-bottom: 0px; 	animation-iteration-count: infinite; 
+            " onmouseover="javascript:stop()" onmouseout="javascript:start()" ><img src="./Companies/adobe.jpg" alt="">
+              <!-- background-color: rgb(139, 160, 120);  -->
+
+            
+              <img src="./Companies/analitica.jpeg" alt="">
+           <img src="./Companies/dnp.jpeg" alt="">
+           <img src="./Companies/accenture.jpg" alt="">
+           <img src="./Companies/juniper networks.jpg" alt="">
+           <img src="./Companies/oracle.jpeg" alt="">
+           <img src="./Companies/robosoft.jpeg" alt="">
+           <img src="./Companies/sasken.jpeg" alt="">
+           <img src="./Companies/wipeli.jpeg" alt="">
+          <img src="./Companies/trianz.jpg" alt=""></marquee>
+          </div>
+            </div>
+          <div id="content" >
+            
+            
+          </div>
+
+
+
+          <div style="background-color: beige; border-radius: 15px; margin-bottom: 3%; margin-top: 4%;" class="m">
+          <h2 style="font-style: italic; margin-top: 2%; margin-bottom: 2%; margin-left: 2%;">Placed CCE Students of 2020-24 Batch: </h2>
+          <div class="xyz">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide a"><img src="./placement/akshat.jpeg" alt=""></div>
+              <div class="swiper-slide a"><img src="./placement/akshita.jpeg" alt=""></div>
+              <div class="swiper-slide a"><img src="./placement/harshit.jpeg" alt=""></div>
+              <div class="swiper-slide b"><img src="./placement/kartik.jpeg" alt=""></div>
+              <div class="swiper-slide b"><img src="./placement/manan.jpeg" alt=""></div>
+              <div class="swiper-slide b"><img src="./placement/megha.jpeg" alt=""></div>
+              <div class="swiper-slide c"><img src="./placement/pavitra.jpeg" alt=""></div>
+              <div class="swiper-slide c"><img src="./placement/rahul.jpeg" alt=""></div>
+              <div class="swiper-slide c"><img src="./placement/ranjith.jpeg" alt=""></div>
+              <div class="swiper-slide d"><img src="./placement/shashank.jpeg" alt=""></div>
+              <div class="swiper-slide d"><img src="./placement/tushar.jpeg" alt=""></div>
+              <div class="swiper-slide d"><img src="./placement/varun.jpeg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
+          </div>
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:beige">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: black;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </footer>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

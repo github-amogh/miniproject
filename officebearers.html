@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="en" data-bs-theme="dar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCE-Mini Proj.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+
+  .row {
+    /* background: transparent url(ob1.jpeg) no-repeat; */
+    width: 860px;
+    height: 270px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 2%;
+    border: 3px solid bisque;
+    /* overflow: hidden; */
+    border-radius: 15px;
+  }
+  
+
+  .row img{
+ 
+    height: 100%;
+    width: 100%;
+  } 
+
+
+  body{
+/* 
+background: transparent url(ob2.jpg) ;
+background-size: cover; */
+
+
+}
+
+
+.syl:hover{
+  color: blue;
+}
+
+ul{
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+  
+
+#c:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+  #a:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+
+  #b:hover{
+    background-color: blue;
+    color: aliceblue;
+  }
+
+ 
+[type=radio] {
+  display: none;
+}
+
+#slider {
+  height: 35vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  margin-bottom: 15%;
+}
+
+#slider label {
+  margin: auto;
+  width: 55%;
+  height: 80%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  margin-top: 6%;
+  
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide6,#s6:checked ~ #slide7,
+#s7:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide6,
+#s5:checked ~ #slide7,#s6:checked ~ #slide1,
+#s7:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide6, #s4:checked ~ #slide7,
+#s5:checked ~ #slide1,#s6:checked ~ #slide2,
+#s7:checked ~ #slide3 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(45%,0,-300px);
+}
+
+#s1:checked ~ #slide5, #s2:checked ~ #slide6,
+#s3:checked ~ #slide7, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2,#s6:checked ~ #slide3,
+#s7:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(60%,0,-400px);
+}
+
+#s1:checked ~ #slide6, #s2:checked ~ #slide7,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3,#s6:checked ~ #slide4,
+#s7:checked ~ #slide5 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(75%,0,-500px);
+}
+
+#s1:checked ~ #slide7, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4,#s6:checked ~ #slide5,
+#s7:checked ~ #slide6 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(90%,0,-600px);
+}
+
+
+
+  </style>
+
+</head>
+
+<body style="background-color:azure">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-radius: 10px; ">
+            <div class="container-fluid" style="background-color:bisque;">
+              <a class="navbar-brand" href="./index.html"><img src="./p1.jpeg" height="60px" width="60px" style="border-radius: 50%;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./index.html"><button type="button" class="btn btn-secondary rounded-pill px-3">About </button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="./faculties.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Faculties</button></a>
+                  </li>
+
+                  <li class="nav-item">
+                    
+                    <a class="nav-link active px-4 " aria-current="page" href="./syllabus.html"><button type="button" class="btn btn-secondary rounded-pill px-3" >Syllabus</button></a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true" href="./placement.html">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3">Placements</button></a>
+
+                  </li>
+
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle px-4 " href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
+                      <button type="button" class="btn btn-secondary rounded-pill px-3" style="background-color: #131010;"><b>MORE</b></button>
+                      
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="./officebearers.html" id="a"  style="background-color: blue; color: whitesmoke;">Office bearers</a></li>
+                      <li><a class="dropdown-item" href="./activities.html" id="b" >Activities</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./developers.html" id="c">Developers</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Click</button>
+                </form> -->
+              </div>
+            </div>
+          </nav> 
+
+
+          <div class="row"> <img src="./ob1.jpeg" alt="" style="border-radius: 20px;"></div>
+
+          <section id="slider">
+            <input type="radio" name="slider" id="s1" checked>
+            <input type="radio" name="slider" id="s2">
+            <input type="radio" name="slider" id="s3" >
+            <input type="radio" name="slider" id="s4">
+            <input type="radio" name="slider" id="s5">
+            <input type="radio" name="slider" id="s6">
+            <input type="radio" name="slider" id="s7">
+
+            <label for="s1" id="slide1"><img src="./ob3.jpg" alt="" style="height: 130%; width: 100%; border-radius: 15px;"></label>
+            <label for="s2" id="slide2"><img src="./ob9.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+
+            <label for="s3" id="slide3"><img src="./ob4.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+
+            <label for="s4" id="slide4"><img src="./ob5.jpeg" alt="" style="height: 130%; width:100%;  border-radius: 15px;"></label>
+            <label for="s5" id="slide5"><img src="./ob6.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s6" id="slide6"><img src="./ob7.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s7" id="slide7"><img src="./ob8.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+
+          </section>
+            
+          
+
+
+         
+
+
+
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:bisque">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: black;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
+              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </footer>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

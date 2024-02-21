@@ -75,7 +75,13 @@ ul{
   perspective: 1000px;
   transform-style: preserve-3d;
   margin-bottom: 15%;
+
+  animation: move 5s;
+  animation-fill-mode: forwards;
+  transition-timing-function: ease-in;
 }
+
+
 
 #slider label {
   margin: auto;
@@ -139,7 +145,10 @@ ul{
 }
 
 
-
+@keyframes move {
+  from {left: -1000px;}
+  to {left: 0px; }
+}
   </style>
 
 </head>
@@ -196,7 +205,7 @@ ul{
           </nav> 
 
 
-          <div class="row"> <img src="./ob1.jpeg" alt="" style="border-radius: 20px;"></div>
+          <div class="row"> <img src="./officebearers/ob1.jpeg" alt="" style="border-radius: 20px;"></div>
 
           <section id="slider">
             <input type="radio" name="slider" id="s1" checked>
@@ -207,15 +216,15 @@ ul{
             <input type="radio" name="slider" id="s6">
             <input type="radio" name="slider" id="s7">
 
-            <label for="s1" id="slide1"><img src="./ob3.jpg" alt="" style="height: 130%; width: 100%; border-radius: 15px;"></label>
-            <label for="s2" id="slide2"><img src="./ob9.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s1" id="slide1"><img src="./officebearers/ob3.jpg" alt="" style="height: 130%; width: 100%; border-radius: 15px;"></label>
+            <label for="s2" id="slide2"><img src="./officebearers/ob9.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
 
-            <label for="s3" id="slide3"><img src="./ob4.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s3" id="slide3"><img src="./officebearers/ob4.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
 
-            <label for="s4" id="slide4"><img src="./ob5.jpeg" alt="" style="height: 130%; width:100%;  border-radius: 15px;"></label>
-            <label for="s5" id="slide5"><img src="./ob6.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
-            <label for="s6" id="slide6"><img src="./ob7.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
-            <label for="s7" id="slide7"><img src="./ob8.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s4" id="slide4"><img src="./officebearers/ob5.jpeg" alt="" style="height: 130%; width:100%;  border-radius: 15px;"></label>
+            <label for="s5" id="slide5"><img src="./officebearers/ob6.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s6" id="slide6"><img src="./officebearers/ob7.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
+            <label for="s7" id="slide7"><img src="./officebearers/ob8.jpeg" alt="" style="height: 130%; width: 100%;  border-radius: 15px;"></label>
 
           </section>
             

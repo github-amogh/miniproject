@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.xyz{
+  display: flex;
+  justify-content: center;
+}
+
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+section{
+  margin-bottom: 10%;
+}
+
+main{
+  padding-bottom: 2%;
+}
+
+
+    </style>
+</head>
+<body background="../bgm.jpg">
+    <header>
+        <div style="background-color: azure ; border-radius: 10%; margin: 3% 0% 0% 0%; padding-top: 2%; ">
+          <!-- #333333 -->
+          <div class="xyz">
+        <img src="../faculty photos/kp.jpeg" alt="Profile Picture"  >
+      </div>
+        <h1 style="margin-left: 29%;">Mr. KRISHNA PRASAD D S</h1>
+        <p  style="margin-left: 40%;">Assistant Professor Gd-II </p>
+        <nav style="background-color: rgb(204, 204, 63); border-radius: 10%;">
+            <ul style="background-color: rgb(204, 204, 63); font-size: large; border-radius: 10%;">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <!-- <li><a href="#achievements">Achievements</a></li> -->
+                <!-- <li><a href="#responsibilities">Responsibilities</a></li> -->
+                <li><a href="#memberships">Memberships</a></li>
+                <li><a href="#subjects">Subjects Handled</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#additional">Additional Info</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main style="border-radius: 5%; margin-top: 5%; background-color: azure; padding-left:10% ;padding-right:5%; margin-left: 19%; margin-right: 20%; margin-top: 3%;">
+        <section id="education">
+            <h2 style="padding-top: 6%;"><b>Educational Qualifications :</b></h2>
+            <ul><li>Ph.D. (Pursuing)&nbsp;<br></li><li style="text-align: justify; ">Master of Technology(M.Tech) in Computer Science and Engineering from VTU, Belgaum.</li><li style="text-align: justify; ">Bachelor of Engineering (B.E) in Information Science and Engineering from VTU, Belgaum</li></ul>
+                </section>
+
+        <section id="experience">
+            <h2><b>Past Experience :</b></h2>
+            <ul><li><span style="text-align: justify;">July 2022 to Till date: Assistant Professor Gd-II in Dept. of C&amp;CE, NMAMIT, Nitte.</span><br></li><li style="text-align: justify; ">July 2014 to July 2022: Assistant Professor in Dept. of CS&amp;E, Canara Engineering College, Bantwal.</li></ul>
+                        </section>
+
+        <section id="interests">
+            <h2><b>Areas of Interest :</b></h2>
+<ul><li>Computer Networks<br></li><li>Network Security</li><li>Cyber Security</li><li>Blockchain Technology</li></ul>
+                   </section>
+
+        <!-- <section id="achievements">
+            <h2><b>Achievements :</b></h2>
+            <ul><li>Completed Understanding and Visualization using Python course in Coursera in 2019-20.<br></li><li>Completed the NPTEL course on Database Management Systems with ELITE certificate in 2018-19</li></ul>
+                </section> -->
+
+        <!-- <section id="responsibilities">
+            <h2><b>Departmental Responsibilities :</b></h2>
+            <ul>
+              <li>NAAC and NBA Criterion Coordinator</li>
+              <li>Class Advisor </li>
+              <li>BOS and BOE Member              </li>
+              <li>Department association ACE coordinator.
+              </li>
+            </ul>
+        </section> -->
+
+        <section id="memberships">
+            <h2><b>Professional Memberships :</b></h2>
+            <ul><li>ISTE Lifetime Membership </li></ul>
+                        </section>
+
+        <section id="subjects">
+            <h2><b>Subjects Handled :</b></h2>
+            <ul><li>Data Communication<br></li><li>Computer Networks</li><li>Mobile Application Development</li><li>.Net Framework for Application Development</li><li>C Programming for Problem Solving</li><li>Computer Organization</li> </ul>
+                </section>
+
+        <section id="publications">
+            <h2><b>Conference/Journal Publications :</b></h2>
+            <ul><li><span style="text-align: justify;">Published a paper entitled "The Solo Chef: Recipe Recommending Web Application Using Machine Learning" in IJIRSET, Volume 10, Issue 6, June 2021.</span><br></li><li style="text-align: justify; ">Presented a Technical paper with the title "Mitigating Wireless Network Interface Card Energy Consumption In Mobile Devices" in the National Conference on Challenges in Research &amp; Technology in the Coming Decades (CRT-2013) held at SDMIT, Ujire.</li><li style="text-align: justify; ">Presented a Technical paper with the title "Identification of sleep intervals over Remote Display Applications to optimize energy consumption of mobile devices" in National Conference on Emerging Trends in Engineering &amp; Technology held at CEC, Mangaluru.</li> </ul>
+
+        </section>
+
+        <section id="additional">
+            <h2><b>Additional Information</b></h2>
+            <ul>
+<div><b>Online Courses Completed</b></div><br>
+<li><span style="text-align: justify;">Received Diploma of completion on successfully completing learning plan on "RPA Developer Foundation".</span><br></li>
+<li style="text-align: justify; ">Completed 8 weeks (Feb-April 2020) NPTEL Online Certification Course on "Blockchain Technology and Applications" with a consolidated score of 79%.</li>
+<li style="text-align: justify; ">Completed 12 weeks (July- Oct 2019) NPTEL Online Certification Course on "Ethical Hacking" with a consolidated score of 76%.</li><br>
+<div><b>Other Technical activities</b></div><br>
+<li><span style="text-align: justify;">Reviewer for IEEE Region 10 Humanitarian Technology Conference, R10 HTC (September 30 to October 2, 2021) organized by Region 10, co-organised&amp; Hosted by IEEE Bangalore Section, at Bangalore.</span><br></li>
+<li style="text-align: justify; ">Resource person in five days' workshop on "Critical Thinking &amp; Problem Solving in Engineering Education" students of Canara Pre-University College, Mangaluru organized by the Department of Computer Science and Engineering from 16th to 20th August, 2021.</li>
+<li style="text-align: justify; ">Resource person in four days' workshop on "Android Application Development" for BCA students of Canara College, Mangaluru organized by the Department of Computer Science and Engineering from 2nd&nbsp; to 5th August, 2021.</li>
+
+            <li> <b> Email   :</b>  krishnaprasad.cc@nitte.edu.in</li>
+            <li><b>Joining date :</b>  25-07-2022</li>
+            </ul>
+          </section>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:#3b3838">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: whitesmoke;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
+        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./logo/twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
+        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./logo/insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
+        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./logo/facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

@@ -1,139 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <style>
-        /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-}
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+      }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-
-.xyz{
-  display: flex;
-  justify-content: center;
-}
-
-
-.bi {
-    vertical-align: -0.125em;
-    fill: currentColor;
-}
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        flex-direction: row;
-    }
-
-    nav {
-        margin-top: 0;
-    }
-
-    nav ul {
+      header {
+        display: flex;
         flex-direction: column;
-        align-self: flex-end;
-    }
+        align-items: center;
+      }
 
-    nav li {
-        margin: 10px 0;
-    }
-}
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
 
-section{
-  margin-bottom: 10%;
-}
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
 
-main{
-  padding-bottom: 2%;
-}
+      nav li {
+        margin: 0 10px;
+      }
 
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
 
+      .xyz {
+        display: flex;
+        justify-content: center;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        header {
+          flex-direction: row;
+        }
+
+        nav {
+          margin-top: 0;
+        }
+
+        nav ul {
+          flex-direction: column;
+          align-self: flex-end;
+        }
+
+        nav li {
+          margin: 10px 0;
+        }
+      }
+
+      section {
+        margin-bottom: 10%;
+      }
+
+      main {
+        padding-bottom: 2%;
+      }
     </style>
-</head>
-<body background="../bgm.jpg">
+  </head>
+  <body background="../bgm.jpg">
     <header>
-        <div style="background-color: azure ; border-radius: 10%; margin: 3% 0% 0% 0%; padding-top: 2%; ">
-          <!-- #333333 -->
-          <div class="xyz">
-        <img src="../faculty photos/sugar.jpeg" alt="Profile Picture"  >
-      </div>
-        <h1 style="margin-left: 37%;">Mr. SHRINIVASA</h1>
-        <p  style="margin-left: 40%;">Assistant Professor Gd-III  </p>
-        <nav style="background-color: rgb(204, 204, 63); border-radius: 10%;">
-            <ul style="background-color: rgb(204, 204, 63); font-size: large; border-radius: 10%;">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <!-- <li><a href="#responsibilities">Responsibilities</a></li> -->
-                <li><a href="#memberships">Memberships</a></li>
-                <li><a href="#subjects">Subjects Handled</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#additional">Additional Info</a></li>
-            </ul>
+      <div
+        style="
+          background-color: azure;
+          border-radius: 10%;
+          margin: 3% 0% 0% 0%;
+          padding-top: 2%;
+        "
+      >
+        <!-- #333333 -->
+        <div class="xyz">
+          <img src="../faculty photos/sandy.jpeg" alt="Profile Picture" />
+        </div>
+        <h1 style="margin-left: 37%">Mr. SANDEEP KUMAR S</h1>
+        <p style="margin-left: 40%">Assistant Professor Gd-II</p>
+        <nav style="background-color: rgb(204, 204, 63); border-radius: 10%">
+          <ul
+            style="
+              background-color: rgb(204, 204, 63);
+              font-size: large;
+              border-radius: 10%;
+            "
+          >
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <!-- <li><a href="#achievements">Achievements</a></li> -->
+            <!-- <li><a href="#responsibilities">Responsibilities</a></li> -->
+            <li><a href="#memberships">Memberships</a></li>
+            <li><a href="#subjects">Subjects Handled</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#additional">Additional Info</a></li>
+          </ul>
         </nav>
       </div>
     </header>
 
-    <main style="border-radius: 5%; margin-top: 5%; background-color: azure; padding-left:10% ;padding-right:5%; margin-left: 19%; margin-right: 20%; margin-top: 3%;">
-        <section id="education">
-            <h2 style="padding-top: 6%;"><b>Educational Qualifications :</b></h2>
-            <ul><li>Ph. D (Pursuing)<br></li><li>M. Tech in Computer Science and Engineering from NMAMIT, Nitte in 2012</li><li>B.E. in Computer Science and Engineering from HREC,&nbsp; Nidasoshi&nbsp; in 2002</li></ul>
-        </section>
+    <main
+      style="
+        border-radius: 5%;
+        margin-top: 5%;
+        background-color: azure;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin-left: 19%;
+        margin-right: 20%;
+        margin-top: 3%;
+      "
+    >
+      <section id="education">
+        <h2 style="padding-top: 6%"><b>Educational Qualifications :</b></h2>
+        <ul>
+          <li>B. E in CSEfrom SSEC (VTU)-2011, Bangalore.<br /></li>
+          <li style="text-align: justify">
+            M.Tech in CSE fromCanara Engineering College (VTU)-2013, Mangalore
+          </li>
+          <li>Ph.D. Pursuing</li>
+        </ul>
+      </section>
 
-        <section id="experience">
-            <h2><b>Past Experience :</b></h2>
-            <ul><li>17th August 2023: Assistant Professor Gd.-III – NMAMIT, Nitte.<br></li><li>February 2023 to August 2023: Assistant Professor( Selection Grade) in SMVITM, Bantakal.</li><li>July 2013 to January 2023: Assistant Professor(Sr.) in SMVITM, Bantakal. </li><li>April 2007 to June 2013: Assistant Professor in MKIT, Kundapura. </li><li>July 2005 to March 2007: Junior Programmer in Shahi Exports Pvt. Ltd., Bangalore.</li><li>August 2003 to May 2005: Trainer in Aptech Computer Education in Belagavi.</li></ul>
-        </section>
+      <section id="experience">
+        <h2><b>Past Experience :</b></h2>
+        <ul>
+          <li>
+            Senior Assistant professor in M.I.T.E Moodabidri from&nbsp;
+            15/07/2013 to 30/8/2022<br />
+          </li>
+          <ul>
+            <li>B. E in CSEfrom SSEC (VTU)-2011, Bangalore.<br /></li>
+            <li style="text-align: justify">
+              M.Tech in CSE fromCanara Engineering College (VTU)-2013, Mangalore
+            </li>
+            <li>Ph.D. Pursuing</li>
+          </ul>
+        </ul>
+      </section>
 
-        <section id="interests">
-            <h2><b>Areas of Interest :</b></h2>
-            <ul><li>Data Structures<br></li><li>Cloud Computing and Security</li><li>Big Data and Analytics</li></ul>       
-           </section>
+      <section id="interests">
+        <h2><b>Areas of Interest :</b></h2>
+        <ul>
+          <li>Image Processing<br /></li>
+          <li>Machine Learning</li>
+        </ul>
+      </section>
 
-        <section id="achievements">
-            <h2><b>Achievements :</b></h2>
-            <ul><li>Completed Coursera online certification course on Programming for Everybody (Getting Started with Python).<br></li><li>Completed Coursera online certification course on Machine Learning for All.</li><li>Completed Coursera online certification course on Python Data Structures.</li><li>Successfully completed NPTEL online certification course on Data structures and programming in C.</li></ul>
-        </section>
+      <!-- <section id="achievements">
+        <h2><b>Achievements :</b></h2>
+        <ul>
+          <li>
+            Completed Coursera online certification course on Programming for
+            Everybody (Getting Started with Python).<br />
+          </li>
+          <li>
+            Completed Coursera online certification course on Machine Learning
+            for All.
+          </li>
+          <li>
+            Completed Coursera online certification course on Python Data
+            Structures.
+          </li>
+          <li>
+            Successfully completed NPTEL online certification course on Data
+            structures and programming in C.
+          </li>
+        </ul>
+      </section> -->
 
-        <!-- <section id="responsibilities">
+      <!-- <section id="responsibilities">
             <h2><b>Departmental Responsibilities :</b></h2>
             <ul>
               <li>NAAC and NBA Criterion Coordinator</li>
@@ -144,52 +207,173 @@ main{
             </ul>
         </section> -->
 
-        <section id="memberships">
-            <h2><b>Professional Memberships :</b></h2>
-            <ul><li>ISTE Life Membership<br></li></ul>
-        </section>
+      <section id="memberships">
+        <h2><b>Professional Memberships :</b></h2>
+        <ul>
+          <li>Member of Indian Society for Technical Education<br /></li>
+        </ul>
+      </section>
 
-        <section id="subjects">
-            <h2><b>Subjects Handled :</b></h2>
-            <ul><li>Design and Analysis of Algorithms<br></li><li>Database Systems</li><li>Big Data and Analytics</li><li>Introduction to Cloud Computing and its Applications</li><li>Object Oriented Concepts</li><li>Automata Theory and Computation</li><li>Advanced Algorithms</li><li>Data Structures with C/C++</li><li>Unix Shell Programming</li><li>Unix System Programming</li><li>C Programming</li><li>Introduction to Python Programming</li><li>System software and Compiler Design</li></ul>
-        </section>
+      <section id="subjects">
+        <h2><b>Subjects Handled :</b></h2>
+        <ul>
+          <li>Discrete Mathematical Structure</li>
+          <li>Operation research</li>
+          <li>Object oriented modelling and design</li>
+          <li>Software Testing</li>
+          <li>Software Engineering</li>
+          <li>Unix and Shell programming</li>
+          <li>Computer Networks</li>
+          <li>Data Communication</li>
+          <li>Natural Language Processing</li>
+          <li>Operating System</li>
+          <li>User interface Development</li>
+          <li>Web Technology and its Application</li>
+          <li>Introduction to Data Structure</li>
+          <li>Python<br /></li>
+        </ul>
+      </section>
 
-        <section id="publications">
-            <h2><b>Conference/Journal Publications :</b></h2>
-            <p><b>Conferences</b></p>
-            <ul><li style="text-align: justify; ">Swathi G Poojary, Swastika S Sanil, Pavithra, Pragathi M K, Shrinivasa, "Transport Vigilance and Fine Automation." , 3rd National Conference on Emerging Trends in Science and Engineering, (NCETSE-2019).</li><li style="text-align: justify; ">Shreya, Rakshitha, Vaishali, Shreya, Shrinivasa, "Helmet Detection Using Image Processing." , International Conference on Emerging Trends in Science and Engineering (ICETSE-2020).</li><li style="text-align: justify; ">Preethi K Sanil, Anusha, Prajna Kotian, K Shravya, Shrinivasa, "Prediction of Chronic Kidney Disease Using Data Mining.", International Conference on Emerging Trends in Science and Engineering (ICETSE-2020).</li><li style="text-align: justify; ">Rama Moorthy H, U Harshitha Shet, Rakshitha D Shetty, Shrinivasa, Avinas N J,Krishnaraj Rao N S, "Triggering and Auditing The Event During Intrusion Detections in WSN"s Defense Application", IEEE 3rd International Conference on Intelligent Sustainable Systems,ICISS 2020, (Scopus Indexed).</li><li style="text-align: justify; ">Rama Moorthy H, Shrinivasa, Deepak Rao M, Chetan R, Avinash N J, Krishnaraj Rao N S, "Biometric Authentication for Safety Lockers Using Cardiac Vectors", IEEE 2nd International Conference on Power, Energy, Control and Transmission System,ICPECTS 2020(Scopus Indexed).</li><li style="text-align: justify; ">Rama Moorthy H, Shrinivasa, Deepak Rao M, Chetan R, Avinash N J, Krishnaraj Rao N S, "A New Automated Electrical System using Smart Grid Technology", IEEE 2nd Internationa Conference on Power, Energy, Control and Transmission System, ICPECTS 2020(Scopus Indexed).</li></ul>
-            <p><b>Journal Publications</b></p>
-            <ul><li style="text-align: justify; ">Saroj Kumari, Shrinivasa, Melwin D Souza, Dr. Padmalal S, "Health Monitoring Based Cognitive IOT using Fast Machine Learning Technique" published in Journal of Data Acquisition and Processing.</li><li style="text-align: justify; ">Shrinivasa, Dr. Chandrakala B. M, "A Review on Chronicle of Cloud Computing Security and Storage Environment Models" published in Journal of survey in fisheries science.</li><li style="text-align: justify; ">Shetty Vighnesh Dhanraj, Swathi, Mahima M Wakwadi, Rashmi, Shrinivasa, "Prediction the best price for crops and spices using Machine Learning", International Journal of Scientific Research and Engineering Development.</li><li style="text-align: justify; ">Srivatsa Upadhya P, Shashank Nayak, Shreyas G Acharya, Ranjith, Shrinivasa, "Identification of Weeds in Maize Crop Using CNN", International Journal of Scientific Research and Engineering Development.</li></ul>
-            <p><b>Patent Published/Filed</b></p>
-            <ul><li><span style="text-align: justify;">Patent Title: Artificial Intelligence and IOT based Automatic Smart Healthcare Monitoring system to monitor health for pet animals and birds using AI camera, WSN, Cloud and Deep learning algorithms.&nbsp; -&nbsp;</span><span style="text-align: justify; white-space: pre;">	</span><span style="text-align: justify;">Patent Number:202241068398 Published Date: 02-12-2022</span><br></li><li style="text-align: justify; ">Patent Title: Artificial Intelligence-based approach for Evaluating and Revealing Consumer Insights through Visual Analysis of Social Media Images. -<span style="white-space: pre;">	</span>Patent Number:202241076939&nbsp; -&nbsp;<span style="white-space: pre;">	</span>Published Date:13-01-2023</li></ul>
-        </section>
+      <section id="publications">
+        <div><b>Journal Publications</b></div>
+        <ul>
+          <li>
+            <span style="text-align: justify"
+              >Published paper titled "Smart Reader for Visually Impaired" 4th
+              International conference on I-SMAC, IEEE XPLORE ISBN
+              978-1-7281-5464-0&nbsp; 7-9 Oct. 2020</span
+            ><br />
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar S, Shreya M S, "Literature Survey on Several Data
+            Hiding Techniques", IJARET, Vol. 2, Issue 1 (Jan. - Mar 2015)
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar S, Shreya M S "Separable Reversible Data Hiding In
+            Encrypted Image Using Modified Least Significant Bit and Virtual
+            Embedding", IJSR, Volume 4 Issue 4, April 2015&nbsp;
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar S, NabinNewar "Survey on Implementation of
+            Radiological Image Retrieval in CBIR system", International Journal
+            of Science and Research, April 2015
+          </li>
+          <li style="text-align: justify">
+            Sumanth CM,Sandeep Kumar S, Santhosh S, "Security Analysis and
+            Evaluation for SSO mechanism in distributed computer Network",
+            IJCCER, May-2014
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar , Ramesh Nayak ,"Secure cryptosystem for images using
+            chaos based confusion and diffusion Mechanism", IJIRD, May 2013
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar , Ramesh Nayak ," Development of secure chaos Based
+            Cryptosystem for Images", IJIRS, June-2013
+          </li>
+          <li style="text-align: justify">
+            Siddanagowda G .R ,Sandeep Kumar S,Raghu M T, "IMAGE RETRIEVAL USING
+            SEMANTICS OF QUERY IMAGE", Vol. 2, No. 2, 2013,pp. 33-38,ISSN
+            2320-7590,IJDI-ERET, December-2013&nbsp;
+          </li>
+        </ul>
+        <div><b>International Conferences</b></div>
+        <ul>
+          <li>
+            Published paper titled "Smart Reader for Visually Impaired" 4th
+            International conference&nbsp; on I-MAC, IEEE XPLORE ISBN
+            978-1-7281-5464-0&nbsp; 7-9 Oct. 2020<br />
+          </li>
+        </ul>
+        <div><b>National Conferences</b><br /></div>
+        <ul>
+          <li>
+            <span style="text-align: justify"
+              >Sandeep Kumar S, Ramesh Nayak "Development of Secure Chaos Based
+              Cryptosystem for Images", REC13, RVCE Bangalore, Karnataka,
+              India.</span
+            ><br />
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar S, Ramesh Nayak "Development of Secure Transmission of
+            Digital Image based on Chaos&nbsp; &nbsp; &nbsp; &nbsp; based
+            Cryptosystems" ETET13, JIT Bangalore, Karnataka, India
+          </li>
+          <li style="text-align: justify">
+            Sandeep Kumar S, "Controlling LAN through Mobile Using GSM",
+            LIVAZ-11, SSEC Bangalore, Karnataka, India
+          </li>
+        </ul>
+      </section>
 
-        <section id="additional">
-            <h2><b>Additional Information</b></h2>
-            <ul>
-            <li> <b> Email   :</b>  shrinivasa.naik@nitte.edu.in  </li>
-            <li><b>Joining date :</b> 17-08-2023</li>
-            </ul>
-          </section>
+      <section id="additional">
+        <h2><b>Additional Information</b></h2>
+        <ul>
+          <li><b> Email :</b> sandeep.kumar@nitte.edu.in</li>
+          <li><b>Joining date :</b> 01-09-2022</li>
+        </ul>
+      </section>
     </main>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:#3b3838">
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      style="background-color: #3b3838"
+    >
       <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
         </a>
-        <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: whitesmoke;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+        <span class="mb-3 mb-md-0 text-body-secondary"
+          ><p style="color: whitesmoke">
+            <b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b>
+          </p></span
+        >
       </div>
-  
+
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./logo/twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./logo/insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./logo/facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        <p style="margin-top: 0.3pc; margin-right: 1%"><b>CONTACT US: </b></p>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://twitter.com/login"
+            ><img src="./logo/twitter.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://www.instagram.com/"
+            ><img src="./logo/insta.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#insta"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://www.facebook.com/"
+            ><img src="./logo/facebook.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#facebook"></use></svg
+          ></a>
+        </li>
       </ul>
     </footer>
-</body>
+  </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </html>

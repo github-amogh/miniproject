@@ -1,222 +1,364 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CCE-Mini Proj.</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCE-Mini Proj.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      @media only screen and (max-width: 768px) {
+        .navigation {
+          display: none;
+        }
+      }
 
-@media only screen and (max-width: 768px) {
-  .navigation {
-    display: none;
-  }
-}
+      .row {
+        background: transparent url(./homepage/NMAMIT.png) no-repeat;
+        width: 860px;
+        height: 270px;
+        margin-bottom: 120px;
+        margin-left: 200px; /* Adjust left margin as needed */
+        border: 3px solid #463814;
+        border-radius: 15px;
+        position: relative; /* Add position relative */
+        top: 100px; /* Adjust top position to move below the task bar */
+        z-index: -1;
+      }
 
+      .row img {
+        height: 100%;
+        width: 100%;
+      }
 
+      #drop:hover {
+        color: blue;
+      }
 
-  .row {
-    background: transparent url(./homepage/NMAMIT.png) no-repeat;
-    width: 860px;
-    height: 270px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    border: 3px solid #463814;
-    margin-top: 2%;
-    /* border-bottom: -3px; */
-    border-radius: 15px;
-  }
-  
+      #intro {
+        height: 27%;
+        width: 20%;
+        float: right;
+        margin-top: 5%;
+        margin-right: 1%;
+        border: 4px solid rgb(202, 176, 176);
+        border-radius: 10px;
+        position: relative;
+        animation: moye 3.5s;
+        animation-fill-mode: forwards;
+      }
 
-  .row img{
-    height: 100%;
-    width: 100%;
-  } 
+      .p1 {
+        margin-right: 25%;
 
+        position: relative;
+        animation: move 3.5s;
+        animation-fill-mode: forwards;
+      }
 
- #drop:hover{
-    color: blue   ;
+      body {
+        background: transparent url(./homepage/vercel.png);
+        background-size: cover;
+        background-attachment: fixed;
+      }
 
- }
-  
+      #c:hover {
+        background-color: blue;
+        color: aliceblue;
+      }
 
- #intro{
-  height: 27%;
-  width: 20%;
-  float: right;
-  margin-top: 5%;
-  margin-right: 1%;
-  border: 4px solid rgb(202, 176, 176);
-  border-radius: 10px;
-  position: relative;
-  animation: moye 3.5s;
-  animation-fill-mode: forwards;
- }
+      #a:hover {
+        background-color: blue;
+        color: aliceblue;
+      }
 
+      #b:hover {
+        background-color: blue;
+        color: aliceblue;
+      }
 
- .p1{
-  margin-right: 25%;
-  
-  position: relative;
-  animation: move 3.5s;
-  animation-fill-mode: forwards;
- }
+      .abc {
+        position: relative;
+        animation: mymove 3s;
+        animation-fill-mode: forwards;
+      }
 
+      @keyframes mymove {
+        from {
+          top: -800px;
+        }
+        to {
+          top: 0px;
+        }
+      }
 
+      @keyframes move {
+        from {
+          right: 800px;
+        }
+        to {
+          right: 0px;
+        }
+      }
 
- body{
+      @keyframes moye {
+        from {
+          left: 800px;
+        }
+        to {
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
 
-background: transparent url(./homepage/vercel.png) ;
-background-size: cover;
-background-attachment: fixed;
+  <body style="background-color: bisue" style="border-radius: 20%">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      style="position: fixed; width: 100%"
+    >
+      <div
+        class="container-fluid"
+        style="background-color: bege; margin-left: 20%"
+      >
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            src="./Logo/p11.png"
+            height="60px"
+            width="80px"
+            style="border-radius: 0%; margin-left: -365%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active px-4"
+                aria-current="page"
+                href="./index.html"
+                ><button
+                  type="button"
+                  class="btn btn-secondary rounded-pill px-3"
+                  style="background-color: #131010"
+                >
+                  <b>ABOUT</b>
+                </button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="./faculties.html"
+                ><button
+                  type="button"
+                  class="btn btn-secondary rounded-pill px-3"
+                >
+                  Faculties
+                </button></a
+              >
+            </li>
 
-}
+            <li class="nav-item">
+              <a
+                class="nav-link active px-4"
+                aria-current="page"
+                href="./syllabus.html"
+                ><button
+                  type="button"
+                  class="btn btn-secondary rounded-pill px-3"
+                >
+                  Syllabus
+                </button></a
+              >
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="./placement.html">
+                <button
+                  type="button"
+                  class="btn btn-secondary rounded-pill px-3"
+                >
+                  Placements
+                </button></a
+              >
+            </li>
 
-
-#c:hover{
-    background-color: blue;
-    color: aliceblue;
-  }
-
-  #a:hover{
-    background-color: blue;
-    color: aliceblue;
-  }
-
-
-  #b:hover{
-    background-color: blue;
-    color: aliceblue;
-  }
-
-
-.abc{
-  
-  position: relative;
-  animation: mymove 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes mymove {
-  from {top: -800px;}
-  to {top: 0px; }
-}
-
-
-@keyframes move {
-  from {right: 800px;}
-  to {right: 0px; }
-}
-
-@keyframes moye {
-  from {left: 800px;}
-  to {left: 0px; }
-}
-
-
-
-
-
-  </style>
-
-</head>
-
-<body style="background-color:bisue" style="border-radius: 20%;" >
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-    <div class="container-fluid" style="background-color: bege; margin-left: 20%; ">
-      <a class="navbar-brand" href="./index.html"><img src="./Logo/p11.png" height="60px" width="80px" style="border-radius: 0%; margin-left: -365%; " ></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            
-            <a class="nav-link active px-4 " aria-current="page" href="./index.html"><button type="button" class="btn btn-secondary rounded-pill px-3" style="background-color: #131010;"><b>ABOUT</b></button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3" href="./faculties.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Faculties</button></a>
-          </li>
-
-          <li class="nav-item">
-            
-            <a class="nav-link active px-4 " aria-current="page" href="./syllabus.html"><button type="button" class="btn btn-secondary rounded-pill px-3">Syllabus </button></a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link " aria-disabled="true" href="./placement.html">
-              <button type="button" class="btn btn-secondary rounded-pill px-3">Placements</button></a>
-
-          </li>
-
-
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle px-4 " href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
-              <button type="button" class="btn btn-secondary rounded-pill px-3">More</button>
-              
-            </a>
-            <ul class="dropdown-menu " id="drop">
-              <li><a class="dropdown-item" href="./officebearers.html" id="a">Office bearers</a></li>
-              <li><a class="dropdown-item" href="./activities.html" id="b">Activities</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li ><a class="dropdown-item" href="./developers.html" id="c">Developers</a></li>
-            </ul>
-          </li>
-        </ul>
-        <!-- <form class="d-flex" role="search">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-4"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <button
+                  type="button"
+                  class="btn btn-secondary rounded-pill px-3"
+                >
+                  More
+                </button>
+              </a>
+              <ul class="dropdown-menu" id="drop">
+                <li>
+                  <a class="dropdown-item" href="./officebearers.html" id="a"
+                    >Office bearers</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./activities.html" id="b"
+                    >Activities</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./developers.html" id="c"
+                    >Developers</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Click</button>
         </form> -->
+        </div>
       </div>
-    </div>
-  </nav> 
-  
+    </nav>
+
     <div class="container">
-        
+      <div class="row"></div>
+      <marquee
+        scrollamount="10"
+        direction="right"
+        style="
+          background-color: #3b3838;
+          font-size: xx-large;
+          border-radius: 20px;
+          margin-bottom: 30px;
+          z-index: -500;
+        "
+        ><b>WHERE CODE MEETS CONNECTIVITY....</b></marquee
+      >
 
+      <!-- <marquee id="marquee" scrollamount="10" direction="right" style="background-color: #3b3838; font-size: xx-large; border-radius: 20px; margin-bottom: 30px; z-index: 50;">
+  <b>WHERE CODE MEETS CONNECTIVITY....</b>
+</marquee> -->
 
-          <div class="row"></div>
-          <marquee scrollamount="10" direction="right" style="background-color:#3b3838; font-size: xx-large; border-radius: 20px;  margin-bottom: 30px;"><b>WHERE CODE MEETS CONNECTIVITY....</b></marquee>
-          
-          <div id="content" style="background-color: #3b3838;" >
-            <img id="intro" src="./homepage/aboutpic.jpeg">
-            <h1 style="color: whitesmoke; " class="abc">All About Computer & Communication Engineering...</h1>
-            <br>
-            <ul>
-            <li><p style="color: whitesmoke;" class="p1">Bachelor of Technology in Computer &amp; Communication Engineering is designed to provide expertise to those students who seek specialization in Computer Communication Technologies and Telecommunications.</p></li>
-            <li><p style="color: whitesmoke;" class="p1"> The main focus of the programme is on Computer Networks (Wired and Wireless) and Telecommunications technologies. The program offers courses in Computer Science, Cloud Computing, Multimedia Communications and Big Data Analytics. Emphasis is placed throughout the course on developing the practical skills and in-depth knowledge required by the present industrial scenario. This program equips students to engage in research focusing on the fusion of multi-disciplinary skills employed in designing modern computing devices with communication channels, communication systems with advanced computer algorithms and systems.
-    
-            </p></li>
-            <li><p style="color: whitesmoke;" class="p1">The program provides experiential learning on basic and advanced courses in computer science, communication networks, security and associated subjects.It is a professional degree that integrates communication techniques, problem-solving strategies, simulation skills and mathematical foundations with the hands-on training required to solve real-world problems.
-              
-              </p></li>
-              <br>
-            </ul>
-          </div>
+      <div id="content" style="background-color: #3b3838">
+        <img id="intro" src="./homepage/aboutpic.jpeg" />
+        <h1 style="color: whitesmoke" class="abc">
+          All About Computer & Communication Engineering...
+        </h1>
+        <br />
+        <ul>
+          <li>
+            <p style="color: whitesmoke" class="p1">
+              Bachelor of Technology in Computer &amp; Communication Engineering
+              is designed to provide expertise to those students who seek
+              specialization in Computer Communication Technologies and
+              Telecommunications.
+            </p>
+          </li>
+          <li>
+            <p style="color: whitesmoke" class="p1">
+              The main focus of the programme is on Computer Networks (Wired and
+              Wireless) and Telecommunications technologies. The program offers
+              courses in Computer Science, Cloud Computing, Multimedia
+              Communications and Big Data Analytics. Emphasis is placed
+              throughout the course on developing the practical skills and
+              in-depth knowledge required by the present industrial scenario.
+              This program equips students to engage in research focusing on the
+              fusion of multi-disciplinary skills employed in designing modern
+              computing devices with communication channels, communication
+              systems with advanced computer algorithms and systems.
+            </p>
+          </li>
+          <li>
+            <p style="color: whitesmoke" class="p1">
+              The program provides experiential learning on basic and advanced
+              courses in computer science, communication networks, security and
+              associated subjects.It is a professional degree that integrates
+              communication techniques, problem-solving strategies, simulation
+              skills and mathematical foundations with the hands-on training
+              required to solve real-world problems.
+            </p>
+          </li>
+          <br />
+        </ul>
+      </div>
 
-          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:#3b3838">
-            <div class="col-md-4 d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-              <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: whitesmoke;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
-            </div>
-        
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <p style="margin-top: 0.3pc;margin-right: 1%;" class="aaa"><b>CONTACT US: </b></p>
-              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./Logo/twitter.jpg" height="24"><svg class="bi" width="24" height="24"></svg></a></li>
-              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./Logo/insta.jpg" height="24"><svg class="bi" width="24" height="24"></svg></a></li>
-              <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./logo/facebook.jpg" height="24"><svg class="bi" width="24" height="24"></svg></a></li>
-            </ul>
-          </footer>
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        style="background-color: #3b3838"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            ><p style="color: whitesmoke">
+              <b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b>
+            </p></span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <p style="margin-top: 0.3pc; margin-right: 1%" class="aaa">
+            <b>CONTACT US: </b>
+          </p>
+          <li class="ms-3" style="color: black">
+            <a class="text-body-secondary" href="https://twitter.com/login"
+              ><img src="./Logo/twitter.jpg" height="24" /><svg
+                class="bi"
+                width="24"
+                height="24"
+              ></svg
+            ></a>
+          </li>
+          <li class="ms-3" style="color: black">
+            <a class="text-body-secondary" href="https://www.instagram.com/"
+              ><img src="./Logo/insta.jpg" height="24" /><svg
+                class="bi"
+                width="24"
+                height="24"
+              ></svg
+            ></a>
+          </li>
+          <li class="ms-3" style="color: black">
+            <a class="text-body-secondary" href="https://www.facebook.com/"
+              ><img src="./logo/facebook.jpg" height="24" /><svg
+                class="bi"
+                width="24"
+                height="24"
+              ></svg
+            ></a>
+          </li>
+        </ul>
+      </footer>
     </div>
-
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-
-
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </html>

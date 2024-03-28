@@ -1,139 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <style>
-        /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-}
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+      }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-
-.xyz{
-  display: flex;
-  justify-content: center;
-}
-
-
-.bi {
-    vertical-align: -0.125em;
-    fill: currentColor;
-}
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        flex-direction: row;
-    }
-
-    nav {
-        margin-top: 0;
-    }
-
-    nav ul {
+      header {
+        display: flex;
         flex-direction: column;
-        align-self: flex-end;
-    }
+        align-items: center;
+      }
 
-    nav li {
-        margin: 10px 0;
-    }
-}
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
 
-section{
-  margin-bottom: 10%;
-}
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
 
-main{
-  padding-bottom: 2%;
-}
+      nav li {
+        margin: 0 10px;
+      }
 
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
 
+      .xyz {
+        display: flex;
+        justify-content: center;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        header {
+          flex-direction: row;
+        }
+
+        nav {
+          margin-top: 0;
+        }
+
+        nav ul {
+          flex-direction: column;
+          align-self: flex-end;
+        }
+
+        nav li {
+          margin: 10px 0;
+        }
+      }
+
+      section {
+        margin-bottom: 10%;
+      }
+
+      main {
+        padding-bottom: 2%;
+      }
     </style>
-</head>
-<body background="../bgm.jpg">
+  </head>
+  <body background="../bgm.jpg">
     <header>
-        <div style="background-color: azure ; border-radius: 10%; margin: 3% 0% 0% 0%; padding-top: 2%; ">
-          <!-- #333333 -->
-          <div class="xyz">
-        <img src="../faculty photos/sugar.jpeg" alt="Profile Picture"  >
-      </div>
-        <h1 style="margin-left: 37%;">Mr. SHRINIVASA</h1>
-        <p  style="margin-left: 40%;">Assistant Professor Gd-III  </p>
-        <nav style="background-color: rgb(204, 204, 63); border-radius: 10%;">
-            <ul style="background-color: rgb(204, 204, 63); font-size: large; border-radius: 10%;">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <!-- <li><a href="#responsibilities">Responsibilities</a></li> -->
-                <li><a href="#memberships">Memberships</a></li>
-                <li><a href="#subjects">Subjects Handled</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#additional">Additional Info</a></li>
-            </ul>
+      <div
+        style="
+          background-color: azure;
+          border-radius: 10%;
+          margin: 3% 0% 0% 0%;
+          padding-top: 2%;
+        "
+      >
+        <!-- #333333 -->
+        <div class="xyz">
+          <img src="../faculty photos/chidu.jpeg" alt="Profile Picture" />
+        </div>
+        <h1 style="margin-left: 37%">Mr. CHIDANANDA T</h1>
+        <p style="margin-left: 40%">Assistant Professor Gd-I</p>
+        <nav style="background-color: rgb(204, 204, 63); border-radius: 10%">
+          <ul
+            style="
+              background-color: rgb(204, 204, 63);
+              font-size: large;
+              border-radius: 10%;
+            "
+          >
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <!-- <li><a href="#responsibilities">Responsibilities</a></li> -->
+            <li><a href="#memberships">Memberships</a></li>
+            <li><a href="#subjects">Subjects Handled</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#additional">Additional Info</a></li>
+          </ul>
         </nav>
       </div>
     </header>
 
-    <main style="border-radius: 5%; margin-top: 5%; background-color: azure; padding-left:10% ;padding-right:5%; margin-left: 19%; margin-right: 20%; margin-top: 3%;">
-        <section id="education">
-            <h2 style="padding-top: 6%;"><b>Educational Qualifications :</b></h2>
-            <ul><li>Ph. D (Pursuing)<br></li><li>M. Tech in Computer Science and Engineering from NMAMIT, Nitte in 2012</li><li>B.E. in Computer Science and Engineering from HREC,&nbsp; Nidasoshi&nbsp; in 2002</li></ul>
-        </section>
+    <main
+      style="
+        border-radius: 5%;
+        margin-top: 5%;
+        background-color: azure;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin-left: 19%;
+        margin-right: 20%;
+        margin-top: 3%;
+      "
+    >
+      <section id="education">
+        <h2 style="padding-top: 6%"><b>Educational Qualifications :</b></h2>
+        <div class="accordion-body">
+          <ul>
+            <li style="text-align: justify">
+              BE in Information Science and Engineering from GM Institute of
+              Technology, Davanagere - 2011
+            </li>
+            <li style="text-align: justify">
+              MTech in Computer Networks and Engineering from Siddaganga
+              Institute of Technology, Tumakuru - 2013
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="experience">
-            <h2><b>Past Experience :</b></h2>
-            <ul><li>17th August 2023: Assistant Professor Gd.-III – NMAMIT, Nitte.<br></li><li>February 2023 to August 2023: Assistant Professor( Selection Grade) in SMVITM, Bantakal.</li><li>July 2013 to January 2023: Assistant Professor(Sr.) in SMVITM, Bantakal. </li><li>April 2007 to June 2013: Assistant Professor in MKIT, Kundapura. </li><li>July 2005 to March 2007: Junior Programmer in Shahi Exports Pvt. Ltd., Bangalore.</li><li>August 2003 to May 2005: Trainer in Aptech Computer Education in Belagavi.</li></ul>
-        </section>
+      <section id="experience">
+        <h2><b>Past Experience :</b></h2>
+        <div class="accordion-body">
+          <ul>
+            <li>
+              Nov 2020 to Sept 20221, Assistant Professor, Acharya Institute of
+              Technology, Bengaluru
+            </li>
+            <li>
+              Aug 2019 to Dec 2019, Technical Trainer, Amphisoft Technologies
+              Pvt Limited, Bengaluru
+            </li>
+            <li>
+              Jul 2018 to May 2019, Assistant Lecturer National Institute of
+              Technology Karnataka, Surathkal
+            </li>
+            <li>
+              Feb 2017 to Aug 2017, Junior Research Fellow, National Institute
+              of Technology Goa, Ponda
+            </li>
+            <li>
+              Aug 2014 to Feb 2017, Assistant Professor, Siddaganga Institute of
+              Technology, Tumakuru<br />
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="interests">
-            <h2><b>Areas of Interest :</b></h2>
-            <ul><li>Data Structures<br></li><li>Cloud Computing and Security</li><li>Big Data and Analytics</li></ul>       
-           </section>
+      <section id="interests">
+        <h2><b>Areas of Interest :</b></h2>
+        <div class="accordion-body">
+          <ul>
+            <li>Information Security</li>
+            <li>Routing issues in Wireless Sensor Networks.<br /></li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="achievements">
-            <h2><b>Achievements :</b></h2>
-            <ul><li>Completed Coursera online certification course on Programming for Everybody (Getting Started with Python).<br></li><li>Completed Coursera online certification course on Machine Learning for All.</li><li>Completed Coursera online certification course on Python Data Structures.</li><li>Successfully completed NPTEL online certification course on Data structures and programming in C.</li></ul>
-        </section>
+      <section id="achievements">
+        <h2><b>Achievements :</b></h2>
+        <div class="accordion-body">
+          <p><b>Honors and Awards</b></p>
+          <ul>
+            <li>
+              <span style="text-align: justify"
+                >TEQIP Fund: For being one of the two toppers of the class, I
+                had received the TEQIP Fund of 8000 pm for 8 months while I was
+                pursuing MTech.</span
+              ><br />
+            </li>
+            <li style="text-align: justify">
+              District Level Rank: Secured a District Level Rank in an exam
+              called 'Sirigannada' while in my Schooling.
+            </li>
+          </ul>
+          <p><b>Honors and Awards</b></p>
+          <ul>
+            <li>
+              KSET: Cleared the KSET examination which was held on September 27,
+              2020<br />
+            </li>
+            <li style="text-align: justify">
+              VTU-ETR: Cleared the VTU PhD Entrance Test which was held on
+              December 13, 2020
+            </li>
+            <li style="text-align: justify">
+              Scientist B: Qualified for the 2nd round of Scientist B exam
+              conducted by the NIC of Ministry of Electronics and Information
+              Technology, Govt. of India held on November 22, 2020 [Advt No
+              NIELIT/NIC/2020/1]&nbsp;
+            </li>
+            <li>
+              UGC-NET: Qualified UGC-NET 2022 for both Assistant Professor and
+              JRF.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <!-- <section id="responsibilities">
+      <!-- <section id="responsibilities">
             <h2><b>Departmental Responsibilities :</b></h2>
             <ul>
               <li>NAAC and NBA Criterion Coordinator</li>
@@ -144,52 +244,147 @@ main{
             </ul>
         </section> -->
 
-        <section id="memberships">
-            <h2><b>Professional Memberships :</b></h2>
-            <ul><li>ISTE Life Membership<br></li></ul>
-        </section>
+      <section id="memberships">
+        <h2><b>Professional Memberships :</b></h2>
+        <div class="accordion-body">
+          <ul>
+            <li style="text-align: justify">
+              ISE: I am an associate member of The Institution of
+              Engineers(India).
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="subjects">
-            <h2><b>Subjects Handled :</b></h2>
-            <ul><li>Design and Analysis of Algorithms<br></li><li>Database Systems</li><li>Big Data and Analytics</li><li>Introduction to Cloud Computing and its Applications</li><li>Object Oriented Concepts</li><li>Automata Theory and Computation</li><li>Advanced Algorithms</li><li>Data Structures with C/C++</li><li>Unix Shell Programming</li><li>Unix System Programming</li><li>C Programming</li><li>Introduction to Python Programming</li><li>System software and Compiler Design</li></ul>
-        </section>
+      <section id="subjects">
+        <h2><b>Subjects Handled :</b></h2>
+        <div class="accordion-body">
+          <ul>
+            <li>Object-Oriented Concepts using C++ and Java<br /></li>
+            <li>Fundamentals of C Programming Language&nbsp;</li>
+            <li>Cryptography and Network Security</li>
+            <li>Unix Shell Programming&nbsp;</li>
+            <li>Software Engineering&nbsp;</li>
+            <li>Web Design Techniques&nbsp;</li>
+            <li>Digital Systems and Computer Organisation</li>
+            <li>Design and Analysis of Algorithms.</li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="publications">
-            <h2><b>Conference/Journal Publications :</b></h2>
-            <p><b>Conferences</b></p>
-            <ul><li style="text-align: justify; ">Swathi G Poojary, Swastika S Sanil, Pavithra, Pragathi M K, Shrinivasa, "Transport Vigilance and Fine Automation." , 3rd National Conference on Emerging Trends in Science and Engineering, (NCETSE-2019).</li><li style="text-align: justify; ">Shreya, Rakshitha, Vaishali, Shreya, Shrinivasa, "Helmet Detection Using Image Processing." , International Conference on Emerging Trends in Science and Engineering (ICETSE-2020).</li><li style="text-align: justify; ">Preethi K Sanil, Anusha, Prajna Kotian, K Shravya, Shrinivasa, "Prediction of Chronic Kidney Disease Using Data Mining.", International Conference on Emerging Trends in Science and Engineering (ICETSE-2020).</li><li style="text-align: justify; ">Rama Moorthy H, U Harshitha Shet, Rakshitha D Shetty, Shrinivasa, Avinas N J,Krishnaraj Rao N S, "Triggering and Auditing The Event During Intrusion Detections in WSN"s Defense Application", IEEE 3rd International Conference on Intelligent Sustainable Systems,ICISS 2020, (Scopus Indexed).</li><li style="text-align: justify; ">Rama Moorthy H, Shrinivasa, Deepak Rao M, Chetan R, Avinash N J, Krishnaraj Rao N S, "Biometric Authentication for Safety Lockers Using Cardiac Vectors", IEEE 2nd International Conference on Power, Energy, Control and Transmission System,ICPECTS 2020(Scopus Indexed).</li><li style="text-align: justify; ">Rama Moorthy H, Shrinivasa, Deepak Rao M, Chetan R, Avinash N J, Krishnaraj Rao N S, "A New Automated Electrical System using Smart Grid Technology", IEEE 2nd Internationa Conference on Power, Energy, Control and Transmission System, ICPECTS 2020(Scopus Indexed).</li></ul>
-            <p><b>Journal Publications</b></p>
-            <ul><li style="text-align: justify; ">Saroj Kumari, Shrinivasa, Melwin D Souza, Dr. Padmalal S, "Health Monitoring Based Cognitive IOT using Fast Machine Learning Technique" published in Journal of Data Acquisition and Processing.</li><li style="text-align: justify; ">Shrinivasa, Dr. Chandrakala B. M, "A Review on Chronicle of Cloud Computing Security and Storage Environment Models" published in Journal of survey in fisheries science.</li><li style="text-align: justify; ">Shetty Vighnesh Dhanraj, Swathi, Mahima M Wakwadi, Rashmi, Shrinivasa, "Prediction the best price for crops and spices using Machine Learning", International Journal of Scientific Research and Engineering Development.</li><li style="text-align: justify; ">Srivatsa Upadhya P, Shashank Nayak, Shreyas G Acharya, Ranjith, Shrinivasa, "Identification of Weeds in Maize Crop Using CNN", International Journal of Scientific Research and Engineering Development.</li></ul>
-            <p><b>Patent Published/Filed</b></p>
-            <ul><li><span style="text-align: justify;">Patent Title: Artificial Intelligence and IOT based Automatic Smart Healthcare Monitoring system to monitor health for pet animals and birds using AI camera, WSN, Cloud and Deep learning algorithms.&nbsp; -&nbsp;</span><span style="text-align: justify; white-space: pre;">	</span><span style="text-align: justify;">Patent Number:202241068398 Published Date: 02-12-2022</span><br></li><li style="text-align: justify; ">Patent Title: Artificial Intelligence-based approach for Evaluating and Revealing Consumer Insights through Visual Analysis of Social Media Images. -<span style="white-space: pre;">	</span>Patent Number:202241076939&nbsp; -&nbsp;<span style="white-space: pre;">	</span>Published Date:13-01-2023</li></ul>
-        </section>
+      <section id="publications">
+        <h2><b>Conference/Journal Publications :</b></h2>
+        <div class="accordion-body">
+                        <ul><li>Participated in a two-day workshop on "Hands on Big Data Ecosystem".&nbsp;<br></li><li style="text-align: justify; ">Certificate issued for support in conducting the IoT Hands-on Workshop as part of the CXC Program 2015 (with support from Intel and IISc).&nbsp;</li><li style="text-align: justify; ">Participated in a 10 days workshop "Cracking The Programming Interview" focusing on Advanced C programming, techniques to crack the programming interview through C and got a certificate of participation.&nbsp;</li><li style="text-align: justify; ">Participated in a National workshop on "NS-2 and LATEX" which was conducted by the SIET College, Bengaluru.</li><li style="text-align: justify; ">Participated in IT awareness/Training Program under NATIONAL INTELLECTUAL PROPERTY AWARENESS MISSION</li><li style="text-align: justify; ">Participated and successfully completed the 5-day online FDP on the theme "Inculcating Universal Human Values in Technical Education" organized by AICTE.</li><li>Participated and successfully completed the 3-day online FDP on "Cyber Physical Systems" organized by NMAMIT.</li>  </ul>                  </div>
+        <div class="accordion-body">
+          <ul>
+            <li style="text-align: justify">
+              Analyzed Paper: Chidananda T and Purushothama B. R. "Vulnerability
+              Examination on the Rekeying Schemes in Wireless Sensor Networks"
+              [Not published].&nbsp;<br />
+            </li>
+            <li style="text-align: justify">
+              Published Paper: T. Chidananda and Ashwini B. P. "A Survey on the
+              Energy-Efficient Hierarchical Routing Techniques in Wireless
+              Sensor Networks". IJEIR 2.3 (2013):197-203.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="additional">
-            <h2><b>Additional Information</b></h2>
-            <ul>
-            <li> <b> Email   :</b>  shrinivasa.naik@nitte.edu.in  </li>
-            <li><b>Joining date :</b> 17-08-2023</li>
-            </ul>
-          </section>
+      <section id="additional">
+        <h2><b>Additional Information</b></h2>
+        <div class="accordion-body">
+          <div style="text-align: justify"><b>Certifications</b></div>
+          <ul>
+            <li style="text-align: justify">
+              Problem Solving through Programming in C: The certificate was
+              awarded to me by NPTEL for passing this Course [Jan-Apr 2020, a 12
+              week course].<br />
+            </li>
+            <li style="text-align: justify">
+              Programming in Java: The certificate was awarded to me by NPTEL
+              for passing this Course [Jan-Apr 2020, a 12 week course].
+            </li>
+            <li style="text-align: justify">
+              The Complete Java Certification: Completed "The Complete Java
+              Certification Course" Online and got a certificate from Udemy
+              [completed].
+            </li>
+            <li style="text-align: justify">
+              Practical Data Structures &amp; Algorithms in Java: Currently, I
+              have registered for this course on Udemy [an ongoing course].
+            </li>
+            <li style="text-align: justify">
+              Java &amp; J2EE: Completed "The Java and J2EE Course" and got the
+              course completion certificate from ABC institute, Bangalore.
+            </li>
+          </ul>
+          <li><b> Email :</b> chidananda.t@nitte.edu.in</li>
+          <li><b>Joining date :</b> 10-05-2021</li>
+        </div>
+      </section>
     </main>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:#3b3838">
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      style="background-color: #3b3838"
+    >
       <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
         </a>
-        <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: whitesmoke;"><b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b></p></span>
+        <span class="mb-3 mb-md-0 text-body-secondary"
+          ><p style="color: whitesmoke">
+            <b>© Amogh, Kiran, Adarsh Mini Project, Ltd</b>
+          </p></span
+        >
       </div>
-  
+
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <p style="margin-top: 0.3pc;margin-right: 1%;"><b>CONTACT US: </b></p>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://twitter.com/login"><img src="./logo/twitter.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#"></use></svg></a></li>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.instagram.com/"><img src="./logo/insta.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#insta"></use></svg></a></li>
-        <li class="ms-3" style="color: black;"><a class="text-body-secondary" href="https://www.facebook.com/"><img src="./logo/facebook.png" height="24"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        <p style="margin-top: 0.3pc; margin-right: 1%"><b>CONTACT US: </b></p>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://twitter.com/login"
+            ><img src="./logo/twitter.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://www.instagram.com/"
+            ><img src="./logo/insta.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#insta"></use></svg
+          ></a>
+        </li>
+        <li class="ms-3" style="color: black">
+          <a class="text-body-secondary" href="https://www.facebook.com/"
+            ><img src="./logo/facebook.png" height="24" /><svg
+              class="bi"
+              width="24"
+              height="24"
+            >
+              <use xlink:href="#facebook"></use></svg
+          ></a>
+        </li>
       </ul>
     </footer>
-</body>
+  </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </html>
